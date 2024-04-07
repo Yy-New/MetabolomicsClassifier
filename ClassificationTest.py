@@ -7,7 +7,7 @@ from PSOAlgorithm import pso_xyz_gradient
 from Util import get_csv_data, get_complete_subset_data, MM_Generate, merge_heading
 
 file_name = "ST000118_20.0%.csv"
-class_label, metabolites, missing_data = get_csv_data(f"./Data/{file_name}")
+class_label, metabolites, missing_data = get_csv_data(f"./MissingData/{file_name}")
 missing_data = missing_data.astype("float").values
 prop = np.sum(np.isnan(missing_data)) / missing_data.size
 x_complete = get_complete_subset_data(missing_data)
