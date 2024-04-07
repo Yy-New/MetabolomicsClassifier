@@ -16,3 +16,5 @@ Running `python ClassificationTest.py` will give you a Result folder with the sa
 
 ### Tips：
 If you want to run your file, change the file_name in ClassificationTest.py to your file. Please note that the format of the file, the behavior metabolite, is listed as a sample, and the name of the metabolite cannot be repeated.
+
+The article is at https://doi.org/10.1038/s41598-023-50646-8
